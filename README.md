@@ -1,7 +1,7 @@
 # Spice
 Single-sided liquidity protocol
 ## Description 
-The protocol uses the pool delta to maintain the initial liquidity in the pool. If the delta is negative, the commission is increased, if the delta is positive, the base pool commission is applied. If the transaction results in a balance in the pools, then the protocol additionally rewards by halving the fee  
+The protocol uses the pool delta to maintain the initial liquidity in the pool. If the delta is negative, the commission is increased, if the delta is positive, the base pool commission is applied
 ```
 delta = current_liquidity - initial_liquidity
 ```
